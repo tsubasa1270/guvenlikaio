@@ -1,1 +1,1 @@
-# guvenlikaio
+Python ile Siber Guvenlik araçları otomizasyonu
