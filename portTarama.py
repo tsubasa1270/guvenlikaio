@@ -32,7 +32,7 @@ def main():
         6-  TCP/Syn Taraması
         7-  TCP/Connect Taraması
         8-  FIN Taraması
-        9-  XMas TREE Taraması
+        9-  XMas Taraması
         10- Null Taraması
         11- UDP Taraması
         12- IP Protocol Taraması
