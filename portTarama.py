@@ -37,7 +37,7 @@ def main():
         11- UDP Taraması
         12- IP Protocol Taraması
         13- ACK Taraması
-        14- ICMP Echo Request
+        14- ICMP Echo Ping
         15- TCP ACK Ping
         16- UDP Ping
         """)
