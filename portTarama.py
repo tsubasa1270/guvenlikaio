@@ -48,8 +48,12 @@ def main():
             print("Program Sonlandırılıyor...")
             break
         elif transactionNumber == "1":
+            tValue = input("İşlem hızını girin (0-5 arası): ")
             targetIp = input("Hedef IP adresini girin: ")
-            os.system("nmap " + "-T 4 " + targetIp)
+            if tValue.isdigit() and 0 <= int(tValue) <= 5:
+                os.system("nmap " + "-T "+ tValue +" "+ targetIp)
+            else:
+                print("Geçersiz işlem hızı. Lütfen 0 ile 5 arasında bir değer girin.")
         elif transactionNumber == "2":
             targetIp = input("Hedef IP adresini girin: ")
             os.system("nmap -sS -sV " + targetIp)
